@@ -1,0 +1,83 @@
+h1 {
+width: 1187px;
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 900;
+font-size: 88px;
+line-height: 116%;
+display: flex;
+align-items: center;
+padding-left: 5%;
+color: #000000;
+}
+
+.subtitulo{
+width: 1187px;
+height: 63px;
+padding-left: 5%;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 116%;
+/* or 65px */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+.produto{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    row-gap: 15px;
+    width: 250px;
+    height: 460px;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+#imagem-produto{
+        width: 185px;
+        height: 185px;
+        background-color: lightblue;
+}
+
+.produto p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0.0275em;
+}
+
+.produto h2 { 
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 150%;
+}
+
+.produto button{
+        background: #FFFFFF;
+        border: 1px solid #9DC2FF;
+        box-sizing: border-box;
+        border-radius: 4px;
+        height: 32px;
+        width: 90px;
+        color: #2264D1;
+}
+
+.produto h4{
+color: grey;   
+line-height: 0;
+text-decoration: line-through;
+}
+
+.vitrine {
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1160px;
+}
