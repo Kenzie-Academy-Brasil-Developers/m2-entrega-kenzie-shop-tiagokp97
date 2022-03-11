@@ -21,10 +21,6 @@ class app {
             valorProduto = `<h2>R$${prod.price.productPrice.toFixed(2)}</h2>`
           }
 
-          
-          //this.criaEstrelas(prod.reviews)
-          
-
           div.innerHTML = `
         <img src="https://kenzie-academy-brasil.gitlab.io/fullstack/frontend/modulo2/sprint3/img/consumindo-api-produtos/${prod.id}/Image.png" alt="" id="imagem-produto">
         <span>
@@ -44,7 +40,7 @@ class app {
     const estrelas = [
       '<img src="src/img/estrelaVazia.png" alt="">',
       '<img src="src/img/estrelaVazia.png" alt="">',
-     '<img src="src/img/estrelaVazia.png" alt="">',
+      '<img src="src/img/estrelaVazia.png" alt="">',
       '<img src="src/img/estrelaVazia.png" alt="">',
        '<img src="src/img/estrelaVazia.png" alt="">',]
     
